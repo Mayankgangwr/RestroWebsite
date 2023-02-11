@@ -7,8 +7,8 @@ export default function App() {
   return (
     <>
     <Nav/>
-    <HomeSlider/>
     <div className="App">
+    <HomeSlider/>
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic ha!</h2>
     </div>

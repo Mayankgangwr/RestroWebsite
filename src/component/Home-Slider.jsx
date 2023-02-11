@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 export default function HomeSlider() {
   var settings = {
     dots: true,
@@ -10,7 +11,7 @@ export default function HomeSlider() {
     slidesToScroll: 1
   };
   return (
-<div className="container">
+<div className="container-fluid">
         <Slider {...settings}>
           <div>
             <img src="http://placekitten.com/g/400/200" />
