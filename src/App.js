@@ -9,7 +9,7 @@ export default function App() {
     const host = window.location.host;
     const arr = host
       .split(".")
-      .slice(0, host.includes("cz678m-3000.preview.csb") ? -1 : -2);
+      .slice(0, host.includes("myrestro.co.in") ? -1 : -2);
     if (arr.length > 0) setSubdomain(arr[0]);
   }, []);
   return (
